@@ -116,4 +116,4 @@ class LinkedList:
                 max_value = current.get_value()
             # update the current node to the next node in the list
             current = current.get_next()
-        return max_value
+        return max_value 

@@ -1,7 +1,6 @@
 """
 A queue is a data structure whose primary purpose is to store and
 return elements in First In First Out order. 
-
 1. Implement the Queue class using an array as the underlying storage structure.
    Make sure the Queue tests pass.
 2. Re-implement the Queue class, this time using the linked list implementation
@@ -32,6 +31,7 @@ class QueueFromArray:
             first_in_line = self.storage[0]
             self.storage = self.storage[1:]
             self.size -= 1
+
             return first_in_line
 
 class QueueFromLinkedList:
